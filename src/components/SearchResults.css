@@ -1,0 +1,49 @@
+.search-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Change minmax(250px, 1fr) to minmax(200px, 1fr) */
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  
+/* Add the following styles to SearchResults.css */
+
+
+.result-card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+    margin-bottom: 20px; /* Add this line */
+  }
+  
+  .result-card:hover {
+    transform: scale(1.05);
+    z-index: 1; /* Add this line */
+  }
+  
+  .result-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .result-card h3 {
+    text-align: center; /* Add this line */
+    margin-top: 10px; /* Add this line */
+  }
+  
+  .result-card:hover img {
+    transform: scale(1.1);
+  }
+  
+  
+  
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

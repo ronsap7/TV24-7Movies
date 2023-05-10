@@ -1,0 +1,24 @@
+.movie-details {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.movie-details img {
+  width: 300px;
+  height: auto;
+}
+
+.movie-details .movie-info {
+  padding: 1rem;
+  flex: 1;
+}
+
+.movie-details h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.movie-details p {
+  margin-bottom: 0.5rem;
+}

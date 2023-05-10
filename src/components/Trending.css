@@ -1,0 +1,45 @@
+/* src/Trending.css */
+
+.trending-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .trending-item {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .trending-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .trending-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .trending-item h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 5px;
+    margin: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #f5f5f5;
+  }
+  
+  .trending-container a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
